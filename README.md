@@ -12,5 +12,5 @@ We have done our best to document, refactor, and test the code before publicatio
 
 ## Spring 2023 Teaching Team
 - Professor Tanja Käser
-- TAs [Paola Mejia](https://github.com/paola-md) and [Vinitra Swamy](https://vinitra.github.io) from the [ML4ED Laboratory](https://www.epfl.ch/labs/ml4ed/).
+- TAs [Paola Mejia](https://github.com/paola-md) and [Vinitra Swamy](https://vinitra.github.io) from the [ML4ED Laboratory](https://www.epfl.ch/labs/ml4ed/)
 - EA Antoine Daeniker
