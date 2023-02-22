@@ -23,9 +23,9 @@ def person_b(df):
     Returns:
     dataframe: Data from the female students
     """
-    # Code goes over here.
-
-    raise NotImplementedError()
+    temp_df = df.loc[df["gender"]=="female"]
+    
+    return temp_df
 
 def person_c(df):
     """Calculates the mean from the column "grade"
