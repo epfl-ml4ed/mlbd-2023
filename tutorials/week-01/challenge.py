@@ -37,8 +37,9 @@ def person_c(df):
     float: Mean grade
     """
     # Code goes over here.
+    mean_grade = df["grade"].mean()
 
-    raise NotImplementedError()
+    return mean_grade
 
 def main():
     """ Main program """
