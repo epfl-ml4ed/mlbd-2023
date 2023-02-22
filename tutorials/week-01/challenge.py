@@ -8,10 +8,8 @@ def person_a():
     Returns:
     dataframe: containing first 5,000 rows of school_performace.csv
     """
-    # Code goes over here.
+    return pd.read_csv('../../data/school_performance.csv', nrows=5000)
 
-    
-    raise NotImplementedError()
 
 def person_b(df):
     """Keeps only the data from the female students. 
@@ -23,9 +21,10 @@ def person_b(df):
     Returns:
     dataframe: Data from the female students
     """
-    temp_df = df.loc[df["gender"]=="female"]
-    
+    temp_df = df.loc[df["gender"] == "female"]
+
     return temp_df
+
 
 def person_c(df):
     """Calculates the mean from the column "grade"
@@ -36,7 +35,8 @@ def person_c(df):
     Returns:
     float: Mean grade
     """
-    return df["grade"].mean()    
+    return df["grade"].mean()
+
 
 def main():
     """ Main program """
@@ -46,6 +46,7 @@ def main():
     res = person_c(df)
 
     print(f"Mean grade of female students is {res}")
+
 
 if __name__ == "__main__":
     main()
