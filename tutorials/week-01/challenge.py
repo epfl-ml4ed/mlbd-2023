@@ -23,7 +23,9 @@ def person_b(df):
     Returns:
     dataframe: Data from the female students
     """
-    # Code goes over here.
+    df = df.loc[df['gender'] == "female"]
+
+    return df
 
     raise NotImplementedError()
 
